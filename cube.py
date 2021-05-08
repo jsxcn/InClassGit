@@ -1,3 +1,2 @@
-def cube(a):
-    c = a * a * a
-    return c
+def volume(a):
+    return a ** 3

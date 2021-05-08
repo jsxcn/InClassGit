@@ -6,5 +6,5 @@ def calc(a, b):
     divide = a / b 
 
 
-calc(3,4)
+#calc(3,4)
     
