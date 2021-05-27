@@ -1,2 +1,2 @@
 def avg(a, b, c, d, e):
-    return (a + b + c + d + e ) / 5    
+    return (a + b + c + d) / e   
