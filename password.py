@@ -1,4 +1,4 @@
 def password(n):
     return len(str(n))
 
-print(password(34))
+#print(password(34))
