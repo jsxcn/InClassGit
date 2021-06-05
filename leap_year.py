@@ -1,11 +1,15 @@
-value = int(input("Enter a leap year: "))
+# value = int(input("Enter a leap year: "))
 
-def leap_year(n):
-	if(n < 0):
-		print(n, "invalid number")
-	elif(n % 4 == 0 and (n % 100 != 0 or n % 400 == 0)):
-		print(n, "is a leap year") 
-	else:
-		print(n, "not Leap Year")
+def leapyr(n):
+    if n % 400 == 0:
+        return True
+    if n % 100 == 0:
+        return False
+    if n % 4 == 0:
+        return True
+    return False
 
-leap_year(value)
+print(leapyr(n))
+
+print(leapyr(2000), "leap year")
+print(leapyr(1900), "leap year")
