@@ -6,4 +6,4 @@ def palindrome(s):
     else:
         return False
 
-print(palindrome(s))
+# print(palindrome(s))

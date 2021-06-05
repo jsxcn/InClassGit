@@ -7,4 +7,7 @@ class testwordcount(unittest.TestCase):
     def test_wordcount_2(self):
         self.assertEqual(wordcount.wordcount("Listen"), 6)
     def test_wordcount_3(self):
-        self.assertEqual(wordcount.wordcount("Listen"), 8)
+        self.assertEqual(wordcount.wordcount("Octopus"), 7)
+
+if __name__ == '__main__':
+    unittest.main()
