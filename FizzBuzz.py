@@ -1,4 +1,0 @@
-def FizzBuzz(i):
-
-
-# FizzBuzz()
